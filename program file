@@ -1,0 +1,10 @@
+number = 7
+attempt = 1
+while attempt<=3:
+  guess = int(input("Guess: "))
+  attempt = attempt + 1
+  if (guess == number):
+    print("You won!")
+    break
+else:
+  print("Sorry you failed")
